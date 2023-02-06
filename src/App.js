@@ -33,10 +33,10 @@ function App() {
 
   const variants = {
     default: {
-      width: 50,
-      height: 50,
-      x: mousePosition.x - 25,
-      y: mousePosition.y - 25,
+      width: 55,
+      height: 55,
+      x: mousePosition.x - 28,
+      y: mousePosition.y - 28,
       mixBlendMode: 'difference',
     },
     link: {

@@ -8,7 +8,7 @@ const Footer = () => {
                     <h3>Get in Touch</h3>
                     <div className="foo-left-flx">
                         <p>Thanks for checking out my digital portfolio! If you like what you see and want to collaborate on a project or have any questions, dont hesitate to drop me a line:</p>
-                        <img src="images/about.png" alt="" />
+                        <img src="images/Eryk-3D-1.png" alt="" />
                     </div>
                     <div className='snd-mail'>
                         <p><a href="mailto:">Send me an Email</a></p>
@@ -16,8 +16,8 @@ const Footer = () => {
                 </div>
                 <div className="foo-right">
                     <p><a href="/">Portfolio</a></p>
-                    <p><a href="/">Linkedin</a></p>
-                    <p><a href="/">Contact</a></p>
+                    <p><a href="https://www.linkedin.com/in/eryk-lewandowski44/" target='_blank' rel='noreferrer'>Linkedin</a></p>
+                    <p><a href="/about">Contact</a></p>
                 </div>
             </div>
         </div>

@@ -2,41 +2,32 @@ import React from 'react'
 
 const Step2 = () => {
   return (
-    <div>
-      <div className="web3-card1 step2">
-        <h2>Content Creation & Campaign</h2>
-        <div className="card1-flex">
-          <div className="card1-left step2-card-left">
-            <p>Creation of promotion strategy including: Development of Content calendar, Special storyline for NFT collection, copywriting, partnerships and performance analysis</p>
-            <p>Design+Management of Project Website</p>
-            <div className="required">
-              <h3>Required Skills</h3>
-              <ul>
-                <li>Al Marketing {'('}acceleration of workflow through the use of Al tools{')'}</li>
-                <li>HTML, CSS Graphic Design {'('}Figma, PS, Canva{')'}</li>
-                <li>Web Design & Management {'('}Figma, Webbflow{')'}</li>
-                <li>Social Media Management, {'('}Notion, Al{')'}</li>
-                <li>Video Processing {'('}iMovie{')'}</li>
-                <li>Email Marketing {'('}Klaviyo{')'}</li>
-                <li>Storytelling</li>
-                <li>Copywriting</li>
-                <li>Outsourcing</li>
-              </ul>
-            </div>
+    <>
+      <div className='step2'>
+        <div className="flex-row s2-flx">
+          <div className='s2-lt'>
+            <h2>Content Creation & Campaign</h2>
+            <p>
+              Creation of Marketing Campaign including: Development of content calendar for web3 socials, Special storyline for NFT collection, Community building, Copywriting, Partnerships and Performance Analysis
+            </p>
+            <p>
+              Design+Management of project website
+            </p>
           </div>
-          <div className="card1-right step2-imgs">
-            <img src="images/step2-1.png" alt="" />
-            <img src="images/step2-2.jpg" alt="" />
-            <img src="images/step2-3.jpg" alt="" />
+          <div className='s2-rt'>
+            <img src="images/Group2.png" alt="" />
           </div>
         </div>
-        <div className='stp2-btm step2-imgs'>
-          <div className='bottom-stp2'><img src="images/step2-4.png" alt="" /></div>
-          <div className='bottom-stp2'><img src="images/step2-5.png" alt="" /></div>
-          <div className='bottom-stp2'><img src="images/step2-6.png" alt="" /></div>
+        <div className='bottom-line'>
+          <p>Graphic Design (Figma, Photoshop, Canva) | Web Design (Figma, Webflow) | HTML, CSS | Social Media Management (Notion) | Video Processing (iMOVIE) | Email Marketing (Klaviyo) | AI Marketing (Acceleration of workflow through the use of AI tools
+            | Storytelling | Copywriting | Outsourcing</p>
         </div>
       </div>
-    </div>
+      <div className='s2-d'>
+        <div><img src="images/step2-3.jpg" alt="" /></div>
+        <div><img src="images/step2-2.jpg" alt="" /></div>
+        <div><img src="images/step2-1.png" alt="" /></div>
+      </div></>
   )
 }
 

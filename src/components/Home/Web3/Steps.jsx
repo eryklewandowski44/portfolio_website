@@ -7,13 +7,13 @@ import Step4 from './Step4'
 function Steps() {
     return (
         <div className='steps-contain'>
-            <h1>Steps</h1>
-            <div className='steps'>
-                <Step1 />
-                <Step2 />
-                <Step3 />
-                <Step4 />
+            <div style={{'marginTop': '10rem'}}>
+                <img src="images/steps.png" alt="" />
             </div>
+            <div id='step1'><Step1 /></div>
+            <div id='step2'><Step2 /></div>
+            <div id='step3'><Step3 /></div>
+            <div id='step4'><Step4 /></div>
         </div>
     )
 }
