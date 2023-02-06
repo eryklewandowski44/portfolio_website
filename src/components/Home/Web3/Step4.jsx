@@ -13,10 +13,10 @@ const Step4 = () => {
       </div>
       <div className="s4-img">
         <div className='s4-i-c SB'>
-          <img src="images/SebastienBorget.png" alt="" />
+          <img src="images/steps/SebastienBorget.png" alt="" />
         </div>
         <div className='s4-i-c SB-rt'>
-          <img src="images/Group 12.png" alt="" />
+          <img src="images/steps/Group 12.png" alt="" />
         </div>
       </div>
     </div>

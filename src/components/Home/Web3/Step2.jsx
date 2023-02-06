@@ -15,7 +15,7 @@ const Step2 = () => {
             </p>
           </div>
           <div className='s2-rt'>
-            <img src="images/Group2.png" alt="" />
+            <img src="images/steps/Group2.png" alt="" />
           </div>
         </div>
         <div className='bottom-line'>
@@ -24,9 +24,9 @@ const Step2 = () => {
         </div>
       </div>
       <div className='s2-d'>
-        <div><img src="images/step2-3.jpg" alt="" /></div>
-        <div><img src="images/step2-2.jpg" alt="" /></div>
-        <div><img src="images/step2-1.png" alt="" /></div>
+        <div><img src="images/steps/step2-3.jpg" alt="" /></div>
+        <div><img src="images/steps/step2-2.jpg" alt="" /></div>
+        <div><img src="images/steps/step2-1.png" alt="" /></div>
       </div></>
   )
 }

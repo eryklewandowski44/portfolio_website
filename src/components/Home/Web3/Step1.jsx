@@ -24,7 +24,7 @@ function Step1() {
             </p>
           </div>
           <div className='s1-rt'>
-            <img src="images/step1-3.png" alt="" />
+            <img src="images/steps/step1-3.png" alt="" />
           </div>
         </div>
         <div className='bottom-line'>
@@ -32,8 +32,8 @@ function Step1() {
         </div>
       </div>
       <div className='s1-d'>
-        <div className='relative'><img src="images/Group1.png" alt="" /></div>
-        <div><img src="images/step1-d2.png" alt="" /></div>
+        <div className='relative'><img src="images/steps/Group1.png" alt="" /></div>
+        <div><img src="images/steps/step1-d2.png" alt="" /></div>
       </div>
     </>
   )
