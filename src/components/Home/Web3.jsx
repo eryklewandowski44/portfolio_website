@@ -16,7 +16,7 @@ function Web3() {
         <div className='twit'>
           <TwitterTweetEmbed
             tweetId={'1592925762482368513'}
-            options={{ theme: "dark", cards: "hidden" }} />
+            options={{ theme: "dark" }} />
         </div>
       </div>
       <div className='pixel-man'>
