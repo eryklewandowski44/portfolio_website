@@ -266,6 +266,7 @@ nav .activeLink {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 4rem;
   align-items: center;
   height: fit-content;
   background-size: cover;
@@ -278,8 +279,8 @@ nav .activeLink {
 
 .card-1-flex {
   display: flex;
-  padding: 2rem 4rem 0 4rem;
-  justify-content: space-around;
+  /* padding: 2rem; */
+  justify-content: center;
   align-items: center;
 }
 
@@ -287,8 +288,8 @@ nav .activeLink {
   width: 50%;
   text-align: justify;
   font-size: x-large;
-  padding-right: 1rem;
-  margin-left: 2rem;
+  /* padding-right: 1rem;
+  margin-left: 2rem; */
 }
 
 .card1-lft .btn {
@@ -306,12 +307,8 @@ nav .activeLink {
 }
 
 .twit {
-  width: auto;
   margin: 0 auto;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  width: 50%;
+  width: 40%;
 }
 
 .pixel-man {

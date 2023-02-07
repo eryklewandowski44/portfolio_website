@@ -9,7 +9,7 @@ function Step1() {
             <h2>Building & Preparation</h2>
             <p>
               Creating the entire collection
-              from the screatch.
+              from the scratch.
               Outsourcing, hiring and
               building and finally managing a
               team of 2D and Voxel
