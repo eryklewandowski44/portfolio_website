@@ -6,7 +6,7 @@ function Hero() {
       <div className="hero-img">
         <div className='hero-head'>
           <h1>Hi i'm Eryk</h1>
-          <p>Young Web3 Marketing Specialist: Pushing The Boundaries with NFTs and AI</p>
+          <p>Young Web3 Marketing Specialist: Pushing The Boundaries with Crypto, NFTs and AI</p>
         </div>
         {/* <div className='laptop'>
           <img src="/object_laptop.png" alt="" />
