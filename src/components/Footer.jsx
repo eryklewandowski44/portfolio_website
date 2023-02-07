@@ -11,7 +11,7 @@ const Footer = () => {
                         <img src="images/Eryk-3D-1.png" alt="" />
                     </div>
                     <div className='snd-mail'>
-                        <p><a href="mailto:">Send me an Email</a></p>
+                        <p><a href="mailto:eryk.lewandowski44@gmail.com">Send me an Email</a></p>
                     </div>
                 </div>
                 <div className="foo-right">

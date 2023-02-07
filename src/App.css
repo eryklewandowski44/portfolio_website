@@ -186,6 +186,7 @@ nav .activeLink {
   color: rgb(119, 119, 119);
   font-weight: 600;
   font-size: 2rem;
+  padding-top: 2rem;
   margin-top: -2rem;
 }
 
@@ -203,7 +204,7 @@ nav .activeLink {
   margin-top: 14rem;
 }
 
-.laptop {
+/* .laptop {
   animation: float 1.5s ease-in-out infinite;
   position: absolute;
   top: 9rem;
@@ -215,13 +216,13 @@ nav .activeLink {
   position: absolute;
   top: 9rem;
   right: 3rem;
-}
+} */
 
-.laptop img,
+/* .laptop img,
 .headphone img {
   width: 250px;
   height: 250px;
-}
+} */
 
 @keyframes float {
   0% {
@@ -237,23 +238,13 @@ nav .activeLink {
 
 .about-sm {
   position: absolute;
-  width: 600px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left;
-  font-size: xx-large;
+  width: fit-content;
+  text-align: center;
+  font-size: 38px;
   font-weight: 600;
-  /* background-color: rgb(42, 42, 42); */
   color: rgb(119, 119, 119);
   padding: 1rem;
-  /* backdrop-filter: blur(10px);
-  scale: 0.6;
-  top: 25rem;
-  right: -13rem; */
-  scale: 0.7;
-  top: 65%;
+  top: 60%;
   right: 0;
   left: 0;
   margin: auto;
@@ -288,13 +279,16 @@ nav .activeLink {
 .card-1-flex {
   display: flex;
   padding: 2rem 4rem 0 4rem;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .card1-lft {
-  width: 60%;
+  width: 50%;
   text-align: justify;
-  font-size: large;
+  font-size: x-large;
   padding-right: 1rem;
+  margin-left: 2rem;
 }
 
 .card1-lft .btn {
@@ -317,7 +311,7 @@ nav .activeLink {
   align-items: center;
   justify-content: center;
   display: flex;
-  padding-left: 1rem;
+  width: 50%;
 }
 
 .pixel-man {
