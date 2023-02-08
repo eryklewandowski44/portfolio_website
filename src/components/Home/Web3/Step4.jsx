@@ -8,7 +8,7 @@ const Step4 = () => {
           <h2>AMA with COO of The Sandbox <br /> Sebastien Borget</h2>
         </div>
         <div className='s4-h-c'>
-          <h2>Collaboration Partners</h2>
+          <h2>Collaboration <br /> Partners</h2>
         </div>
       </div>
       <div className="s4-img">
