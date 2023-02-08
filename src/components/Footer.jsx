@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const Footer = () => {
+
+function Footer() {
     return (
         <div className='foo'>
             <div className="foo-flex">
@@ -15,13 +17,14 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="foo-right">
-                    <p><a href="/">Portfolio</a></p>
+                    <p><Link to={'/'}>Portfolio</Link></p>
                     <p><a href="https://www.linkedin.com/in/eryk-lewandowski44/" target='_blank' rel='noreferrer'>Linkedin</a></p>
-                    <p><a href="/about">Contact</a></p>
+                    <p><Link to={'/about'}>Contact</Link></p>
                 </div>
             </div>
         </div>
     )
 }
+
 
 export default Footer

@@ -168,18 +168,18 @@ nav .activeLink {
   align-items: center;
   text-align: center;
   width: 100%;
-  padding-top: 4rem;
+  margin-top: 5rem;
+}
+
+.contain-hero img {
+  width: 100%;
 }
 
 .hero-head {
   font-size: x-large;
-  width: 75%;
+  width: 70%;
   margin: auto;
   text-transform: capitalize;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin-top: -15rem;
 }
 
 .hero-head p {
@@ -190,44 +190,14 @@ nav .activeLink {
   margin-top: -2rem;
 }
 
-.hero-img {
-  background-image: linear-gradient(
-      to bottom,
-      transparent 60%,
-      rgba(0, 0, 0, 1) 100%
-    ),
-    url(/public/images/Eryk-3D.png);
-  background-size: contain;
-  height: 100vh;
-  position: relative;
-  background-repeat: no-repeat;
-  margin-top: 14rem;
-}
-
-/* @keyframes float {
-  0% {
-    transform: translatey(0px);
-  }
-  50% {
-    transform: translatey(-10px);
-  }
-  100% {
-    transform: translatey(0px);
-  }
-} */
-
 .about-sm {
-  position: absolute;
   width: fit-content;
   text-align: center;
   font-size: 38px;
   font-weight: 600;
   color: rgb(119, 119, 119);
-  padding: 1rem;
-  top: 60%;
-  right: 0;
-  left: 0;
   margin: auto;
+  margin-top: -5rem;
 }
 
 .about-sm p {
@@ -427,6 +397,10 @@ nav .activeLink {
   margin: 10rem auto;
 }
 
+.step3 h2 {
+  margin-bottom: 3rem;
+}
+
 .step3 img {
   width: 100%;
   border-radius: 0.5rem;
@@ -491,7 +465,7 @@ nav .activeLink {
 /* Steps-end */
 /* Web3-end */
 
-/* web2 */
+/* web2-start */
 .w3-c1 {
   width: 80%;
   margin: 4rem auto;
@@ -540,19 +514,24 @@ nav .activeLink {
 }
 
 .w3-c2 {
-  width: 80%;
-  margin: 6rem auto;
-  text-align: center;
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.4) 0%,
       rgb(0, 0, 0) 100%
     ),
     url(/public/images/backgrounds/bg7.png);
+  width: 80%;
+  margin: 6rem auto;
+  text-align: center;
   background-size: cover;
   padding: 2rem;
   height: fit-content;
   border-radius: 2rem;
+}
+
+.w3-c2 h3 {
+  margin-bottom: 4rem;
+  font-size: x-large;
 }
 
 .c2 {
@@ -663,9 +642,15 @@ nav .activeLink {
 
 /* Media Queries */
 @media (max-width: 480px) {
-  .cursor,
   .side-nav,
   .nav-left {
+    display: none;
+  }
+  .cursor {
+    border: none;
+    position: fixed;
+    opacity: 0;
+    z-index: -1;
     display: none;
   }
 
@@ -683,33 +668,32 @@ nav .activeLink {
     width: 100px;
   }
 
-  .nav-left {
-    margin-left: 0;
+  nav {
+    justify-content: center;
   }
 
   .nav-right {
     font-size: 15px;
     margin-right: 0;
+    width: 100%;
   }
 
   nav ul li {
     margin-left: 0;
+    margin-right: 1rem;
   }
 
   nav ul {
-    justify-content: space-between;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: flex-end;
   }
 
   .contain-hero {
-    padding-top: 2rem;
+    margin-top: 12rem;
   }
 
   .hero-head {
     font-size: smaller;
-    width: 80%;
+    width: 100%;
     margin-top: -10rem;
   }
 
@@ -717,16 +701,9 @@ nav .activeLink {
     font-size: small;
   }
 
-  .hero-img {
-    background-size: 300px;
-    position: static;
-    margin-top: 8rem;
-    height: 22vh;
-  }
-
   .about-sm {
     font-size: small;
-    top: 46%;
+    margin-top: -3rem;
   }
 
   .card-1 {
@@ -781,9 +758,9 @@ nav .activeLink {
   .step1 {
     padding: 0.5rem;
     border-radius: 1rem;
-    width: 100%;
+    width: auto;
     margin: 1rem auto 0 auto;
-    font-size: 6px;
+    font-size: 8px;
   }
 
   .s1-rt,
@@ -793,11 +770,164 @@ nav .activeLink {
 
   .bottom-line {
     font-size: 5px;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   .s1-d {
     width: 100%;
-    margin-left: 0.5rem;
+  }
+
+  .step2 {
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: auto;
+    margin: 1rem auto 0 auto;
+    font-size: 8px;
+  }
+
+  .s2-flx {
+    padding: 0;
+  }
+
+  .s2-rt,
+  .s2-lt {
+    margin: 0 0.5rem;
+    width: 50%;
+  }
+
+  .s2-d {
+    width: auto;
+  }
+
+  .step3 {
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: auto;
+    font-size: 8px;
+    margin: 5rem auto;
+  }
+
+  .step3 h2 {
+    margin-bottom: 1rem;
+  }
+
+  .step3 .top {
+    width: 95%;
+  }
+
+  .slider {
+    width: 85%;
+    padding: 0 0.5rem;
+  }
+
+  .step4 {
+    width: auto;
+    font-size: 8px;
+  }
+
+  .s4-img {
+    margin-top: 1rem;
+  }
+
+  .s4-i-c {
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .w3-c1 {
+    width: auto;
+    margin-bottom: 4rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 8px;
+  }
+
+  .face {
+    width: 50px;
+  }
+
+  .man-flex {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    font-size: 12px;
+  }
+
+  .man-flex img {
+    border-radius: 0.5rem;
+  }
+
+  .gp {
+    width: auto;
+    padding: 0.5rem;
+  }
+
+  .w3-c2 {
+    width: auto;
+    margin: 4rem auto;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 8px;
+  }
+
+  .w3-c2 h3 {
+    margin-bottom: 1rem;
+    font-size: small;
+  }
+
+  .c2 {
+    gap: 1rem;
+    padding: 0;
+    margin: 2rem auto;
+  }
+
+  .foo {
+    font-size: small;
+  }
+
+  .foo-flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .foo-left,
+  .foo-right {
+    width: auto;
+  }
+
+  .foo-right {
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .foo-left-flx {
+    flex-direction: column;
+    text-align: justify;
+  }
+
+  .foo-left-flx p {
+    margin-right: 0;
+    font-size: 16px;
+  }
+
+  .foo img {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .about-contain {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 2.5rem auto;
+    text-align: justify;
+  }
+
+  .about-contain h1 {
+    font-size: 28px;
+    margin-bottom: 2rem;
+    font-weight: 500;
   }
 }

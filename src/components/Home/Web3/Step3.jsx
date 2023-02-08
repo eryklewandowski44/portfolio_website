@@ -4,7 +4,7 @@ import SliderImg from './SliderImg'
 const Step3 = () => {
   return (
     <div className='step3'>
-      <h2 style={{'marginBottom': '3rem'}}>Biggest WEB3 Priority - Community</h2>
+      <h2>Biggest WEB3 Priority - Community</h2>
       <div className='flex-row top'>
         <div><img src="images/steps/TwitterStats.jpg" alt="" /></div>
         <div><img src="images/steps/DiscordStats.jpg" alt="" /></div>

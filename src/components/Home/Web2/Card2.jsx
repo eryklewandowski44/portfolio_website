@@ -3,7 +3,7 @@ import React from 'react'
 function Card2() {
   return (
     <div className='w3-c2'>
-      <h3 style={{'fontSize': 'x-large', 'marginBottom': '4rem'}}>NIVEA Eastern Europe</h3>
+      <h3>NIVEA Eastern Europe</h3>
       <div className="flex-row c2">
         <div className="flex-col c2-lt">
           <div>
