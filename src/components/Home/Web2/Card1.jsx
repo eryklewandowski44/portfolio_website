@@ -19,7 +19,7 @@ function Card1() {
         </div>
         <div>
           <div><img src="images/bipolar/man3.jpg" alt="" /></div>
-          <p>Forwarding customers to own Instagram fanpage: 14k+ followers. Many competitio</p>
+          <p>Forwarding customers to own Instagram fanpage: 14k+ followers. Many competitions</p>
         </div>
       </div>
       <div>

@@ -4,12 +4,12 @@ import { TwitterTweetEmbed } from 'react-twitter-embed'
 function Web3() {
   return (
     <div className='card-1'>
-      <div>
+      <div className='web3-heading'>
         <img src="images/web3-heading.png" alt="" />
       </div>
       <div className='card-1-flex'>
         <div className='card1-lft'>
-          <p>The collection offers a total of 333 Unique NFTs natively on 3 blockchains - Avalanache, Etheruem, and Polygon.</p>
+          <p>The collection offers a total of 333 Unique NFTs natively on 3 blockchains - Avalanche, Ethereum, and Polygon.</p>
           <p>Each unique NFT comes with a free real-life physical #Rens Coffee merchandise and an exclusive playable character in The Sandbox.</p>
           <p className='btn'><a href="https://nft.rensoriginal.com/" target="_blank" rel="noopener noreferrer">Check The Website</a></p>
         </div>
