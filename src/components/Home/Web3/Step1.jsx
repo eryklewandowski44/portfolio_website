@@ -32,7 +32,7 @@ function Step1() {
         </div>
       </div>
       <div className='s1-d'>
-        <div className='relative'><img src="images/steps/Group1.png" alt="" /></div>
+        <div><img src="images/steps/Group1.png" alt="" /></div>
         <div><img src="images/steps/step1-d2.png" alt="" /></div>
       </div>
     </>

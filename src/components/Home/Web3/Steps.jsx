@@ -7,7 +7,7 @@ import Step4 from './Step4'
 function Steps() {
     return (
         <div className='steps-contain'>
-            <div style={{'marginTop': '10rem'}}>
+            <div className='step-pxl' style={{'marginTop': '10rem'}}>
                 <img src="images/steps.png" alt="" />
             </div>
             <div id='step1'><Step1 /></div>

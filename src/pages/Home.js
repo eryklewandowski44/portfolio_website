@@ -1,9 +1,9 @@
 import React from 'react'
-import Footer from '../components/Footer'
 import Hero from '../components/Home/Hero'
-import Web2 from '../components/Web2'
 import Web3 from '../components/Home/Web3'
 import Steps from '../components/Home/Web3/Steps'
+// import Web2 from '../components/Web2'
+// import Footer from '../components/Footer'
 
 function Home() {
   return (
@@ -19,12 +19,12 @@ function Home() {
         <Web3 />
       </div>
       <Steps />
-      <div className='web-pxl'>
+      {/* <div className='web-pxl'>
         <img src='images/web2.png' alt='' />
       </div>
       <Web2 />
       <hr className='h-line' />
-      <Footer />
+      <Footer /> */}
     </div>
   )
 }
