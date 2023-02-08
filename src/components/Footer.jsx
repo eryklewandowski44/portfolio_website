@@ -19,7 +19,7 @@ function Footer() {
                 <div className="foo-right">
                     <p><Link to={'/'}>Portfolio</Link></p>
                     <p><a href="https://www.linkedin.com/in/eryk-lewandowski44/" target='_blank' rel='noreferrer'>Linkedin</a></p>
-                    <p><Link to={'/about'}>Contact</Link></p>
+                    <p><Link to={'/about'}>About</Link></p>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@ function Hero() {
       </div>
       <div>
         <picture>
-          <source media="(max-width: 480px)" srcset="images/Eryk-3D-mobile.png" />
+          <source media="(max-width: 480px)" srcSet="images/Eryk-3D-mobile.png" />
           <img src="images/Eryk-3D.png" alt="" />
         </picture>
       </div>
