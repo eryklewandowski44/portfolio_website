@@ -225,6 +225,7 @@ nav .activeLink {
   width: 80%;
   margin: 4rem auto;
   position: relative;
+  font-size: large;
 }
 
 .card-1-flex {
@@ -232,12 +233,12 @@ nav .activeLink {
   /* padding: 2rem; */
   justify-content: center;
   align-items: center;
+  padding: 0 2rem;
 }
 
 .card1-lft {
   width: 50%;
-  text-align: justify;
-  font-size: x-large;
+  text-align: left;
   /* padding-right: 1rem;
   margin-left: 2rem; */
 }
@@ -642,10 +643,10 @@ nav .activeLink {
 
 /* Media Queries */
 @media (max-width: 480px) {
-  .side-nav,
-  .nav-left {
+  .side-nav, .nav-left p {
     display: none;
   }
+
   .cursor {
     border: none;
     position: fixed;
@@ -670,6 +671,14 @@ nav .activeLink {
 
   nav {
     justify-content: center;
+  }
+
+  .nav-left {
+    margin-left: 1rem;
+  }
+
+  .nav-left img {
+    width: 50px;
   }
 
   .nav-right {
@@ -812,7 +821,12 @@ nav .activeLink {
   }
 
   .step3 .top {
-    width: 95%;
+    width: 97%;
+    margin-top: -1rem;
+  }
+
+  .step3 .d-img {
+    margin-top: 4rem;
   }
 
   .slider {
@@ -847,10 +861,9 @@ nav .activeLink {
   }
 
   .man-flex {
-    flex-direction: column;
-    gap: 2rem;
-    padding: 1rem;
-    font-size: 12px;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    font-size: 8px;
   }
 
   .man-flex img {
