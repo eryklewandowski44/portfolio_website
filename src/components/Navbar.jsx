@@ -7,6 +7,10 @@ function Navbar({ linkEnter, linkLeave }) {
   return (
     <nav>
       <div className="nav-left">
+        <picture>
+          <source media='(max-width: 480px)' srcSet='images/logo.svg' />
+          <img src="" alt="" />
+        </picture>
         <p onClick={() => { setActiveLink(1) }} onMouseEnter={linkEnter} onMouseLeave={linkLeave}><Link to={'/'}>Eryk Lewandowski</Link></p>
       </div>
       <div className="nav-right">
