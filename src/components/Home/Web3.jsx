@@ -9,7 +9,7 @@ function Web3() {
       </div>
       <div className='card-1-flex'>
         <div className='card1-lft'>
-          <p>The collection offers a total of 333 Unique NFTs natively on 3 blockchains - Avalanche, Ethereum, and Polygon.</p>
+          <p>The collection offers a total of 333 Unique NFTs natively on 3 blockchains - Avalanche, Ethereum, and Polygon {'( '}SOLD OUT{' )'}</p>
           <p>Each unique NFT comes with a free real-life physical #Rens Coffee merchandise and an exclusive playable character in The Sandbox.</p>
           <p className='btn'><a href="https://nft.rensoriginal.com/" target="_blank" rel="noopener noreferrer">Check The Website</a></p>
         </div>
