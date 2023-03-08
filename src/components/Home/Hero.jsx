@@ -6,7 +6,7 @@ function Hero() {
       <div className='hero-head'>
         <h1>Hi i'm Eryk</h1>
         <p>
-          Young Digital Marketing Specialist: Pushing The Boundaries Of Web2 And Web3
+          The Digital Builder: Pushing The Boundaries Of Web2 And Web3
         </p>
       </div>
       <div>
