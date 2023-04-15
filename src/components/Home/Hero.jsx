@@ -19,7 +19,7 @@ function Hero() {
         </picture>
       </div>
       <div className='about-sm'>
-        <p>Education: Marketing & Business Law</p>
+        <p>Education: Management: Marketing & Business Law</p>
         <p>Experience: 3+ Years</p>
         <p>Based: Europe (Copenhagen, Helsinki, Barcelona)</p>
       </div>
