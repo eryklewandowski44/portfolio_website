@@ -19,9 +19,9 @@ function Hero() {
         </picture>
       </div>
       <div className='about-sm'>
-        <p>Education: Marketing & Law</p>
+        <p>Education: Marketing & Business Law</p>
         <p>Experience: 3+ Years</p>
-        <p>Based: Helsinki, Finland</p>
+        <p>Based: Europe (Copenhagen, Helsinki, Barcelona)</p>
       </div>
     </div>
   )
